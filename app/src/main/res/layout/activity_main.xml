@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="MENU PRINCIPAL"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="36dp"
+        android:text="INICIAR SESIÓN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_register" />
+
+    <Button
+        android:id="@+id/btn_img"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:text="IMAGEN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_form" />
+
+    <Button
+        android:id="@+id/btn_cmra"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:text="CAMARA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_gps" />
+
+    <Button
+        android:id="@+id/btn_rowColumn"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:text="CONTADOR DE PASOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_cmra" />
+
+    <Button
+        android:id="@+id/btn_gps"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:text="LOCALIZACION"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_img" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:text="REGISTRARSE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rowColumn" />
+
+    <Button
+        android:id="@+id/btn_form"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="FORMULARIO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menu"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

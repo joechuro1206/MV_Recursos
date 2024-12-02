@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419751186348",
+    "project_id": "practica-sensores",
+    "storage_bucket": "practica-sensores.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419751186348:android:d6494b7347f13a642c7409",
+        "android_client_info": {
+          "package_name": "com.example.practica_sensores"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQJfKPi0-Z5Ug2B2nOq2UW5eAnOpLfUn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
